@@ -4,7 +4,6 @@ convertFC :: Double -> Double
 convertFC x = x * 1.8 + 32
 
 -- 2. Basic Calculator
-
 addNum :: Double -> Double -> Double
 subNum :: Double -> Double -> Double
 divNum :: Double -> Double -> Double
