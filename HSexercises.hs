@@ -38,6 +38,22 @@ isEven num =
         then True
     else False
                 
+-- 6. Lowest number from 2 given numbers
+lowNum :: Int -> Int -> Int
+lowNum n1 n2 =
+    if (n1 < n2)
+        then n1
+    else n2
 
+-- 7. Lowest number from 3 given numbers
+lowNum3 :: Int -> Int -> Int -> Int
+lowNum3 n1 n2 n3 =
+    if (n1 < n2 && n1 < n3)
+        then n1
+    else if (n2 < n1 && n2 < n3)
+        then n2
+    else n3
 
-
+-- 8. Calculate the area of a circle
+areaCir :: Double -> Double
+areaCir r = pi * (r * r)
