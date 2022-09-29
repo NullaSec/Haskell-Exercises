@@ -1,6 +1,8 @@
 # Haskell Exercises
 Here are the Haskell exercises I've been solving on my journey learning this language. If you want to check the answers [CLICK HERE](https://github.com/NullaSec/Haskel-Exercises/blob/main/HSexercises.hs).
 
+Important note: The solutions work but that doesn't mean they're all the most efficient code you could make. Sometimes I use different ways of solving similar problems so that I can practice different stuff.
+
 #### 1. Output a temperature value in Farenheit after giving a value in Celsius.
 NOTE: ºF = ºC x 1.8 + 32
 
@@ -20,3 +22,10 @@ NOTE: ºF = ºC x 1.8 + 32
 #### 4. The price of a plane ticket changes based on the age of the traveler. People over the age of 60 pay 60% of the total price. Children younger than 10 years old pay 50% and babies (younger than 2 years old) pay only 10% of the total price of the ticket. Create a function that given the age of the traveler and price of the ticket outputs the price they need to pay.
 
 #### 5. Create a function that receives a value and returns "True" if the value is an even number.
+
+#### 6. Function that displays the lowest number between two given numbers.
+
+#### 7. Function that displays the lowest number between three given numbers.
+
+#### 8. Create a function to calculate the area of a circle.
+NOTE: Area = π x r²
